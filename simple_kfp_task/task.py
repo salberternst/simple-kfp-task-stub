@@ -1,10 +1,3 @@
-import os
-from typing import Callable
-
-GIT_DIFF_MAX_LENGTH = 10000
-PIP_PACKAGE_NAME = "simple-kfp-task"
-
-
 class Task:
 
     def __init__(
