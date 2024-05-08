@@ -9,9 +9,9 @@ class Task:
 
     def __init__(
         self,
-        func: Callable = None
+        **kwargs,
     ):
-        self.func = func
+        self.func = kwargs.get("func")
 
     @classmethod
     def init(cls, **kwargs):
