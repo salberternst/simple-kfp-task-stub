@@ -17,9 +17,6 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
-[project.scripts]
-simple-kfp-task = "simple_kfp_task.cli:main"
-
 [project.urls]
-Homepage = "https://github.com/salberternst/simple-kfp-task"
-Issues = "https://github.com/salberternst/simple-kfp-task/issues"
+Homepage = "https://github.com/salberternst/simple-kfp-task-stub"
+Issues = "https://github.com/salberternst/simple-kfp-task-stub/issues"
